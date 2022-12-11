@@ -1,0 +1,21 @@
+{
+    "name": "codebois/usermanagement",
+    "type": "library",
+    "description": "Usermanagement for codebois projects, generic objects",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jerzy",
+            "email": "jerzy@zientkowski.pl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "codebois/database": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "UserManagement\\": "src" 
+        }
+    }
+}
